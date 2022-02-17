@@ -4,7 +4,7 @@ const session = require('supertest-session');
 const app = require('../../src/app.js');
 const { Recipe, conn } = require('../../src/db.js');
 
-const agent = session(app);
+const agent = session(app)
 const recipe = {
   name: 'Milanea a la napolitana',
 };
